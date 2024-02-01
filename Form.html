@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMPLE OF A FORM</title>
+</head>
+<body>
+    <h3>Name:  Jane Chioma Udeh</h3>
+    <h3>Email: janeudeh700@gmail.com</h3>
+    <h3>Group: 6</h3>
+    <br>
+    <h1>GENIUS BANK PLC New Account Form</h1>
+
+<form action="https://www.geniusbankplc.com/register" method="post">
+
+     <label for="firstname">First Name:</label> <br>
+    <input type="text" name="firstname"> <br> <br>
+
+     <label for="lastname">Last Name:</label> <br>
+    <input type="text" name="lastname"> <br><br>
+
+    <label for="email">Email:</label> <br>
+    <input type="email" name="email" size="45"> <br> <br>
+    
+    <label for="phonenumber">Phone Number:</label> <br>
+    <input type=tel" name="phonenumber"> <br><br>
+
+    <label for="password">Password:</label> <br>
+    <input type="password" name="password"><br> <br>
+
+    <label for="confirmpassword">Confirm Password:</label> <br>
+    <input type="password" name="confirmpassword"> <br> <br>
+
+    <label for="mmname">Mother's Maiden Name:</label> <br>
+    <input type="text" name="mmname" size="35" required><br> <br>
+
+    <label for="bvn">Bank Verification Number:</label> <br>
+    <input type="tel" name="bvn" maxlength="10" size="42" required><br> <br>
+
+    <label for="acnumber">Account Number:</label> <br>
+    <input type="tel" name="acnumber" maxlength="10" size="42"> <br> <br>
+
+    <label for="nat">Nationality:</label> <br>
+    <input type="text" name="nat"> <br> <br>
+
+    <label for="resaddress">Residential Address:</label> <br>
+    <input type="address" name="resaddress" size="60" required> <br> <br>
+
+    <label for="dob">Date of Birth:</label> <br>
+    <input type="datetime-local" name="dob" required> <br> <br>
+
+    <p>Gender: <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female</p>
+
+    <p>Marital Status: <input type="checkbox" name="maritalstat"value="single">
+        Single
+        <input type="checkbox" name="maritalstat" value="married"> Married 
+        <input type="checkbox" name="maritalstat" value="Seperated"> Seperated
+        <input type="checkbox" name="maritalstat" value="divorced"> Divorced
+    </p>
+
+    <p>Give a brief description of yourself: </p>
+   <p> <textarea name="description" cols="40" rows="10" required ></textarea></p>
+    
+    <p>Upload your passport in .jpg or pdf only: <input type="file" name="passport"> <br>
+    <input type="submit" value="UPLOAD"> </p>
+
+    <p>Type of Account:</p> <select name="accounttype" required>
+        <option value="savings">Savings</option>
+        <option value="current">Current</option>
+        <option value="fixeddeposit">Fixed Deposit</option>
+        <option value="merchant">Merchant</option>
+        <option value="Dom">Domiciliary</option>
+        <option value="otheraccount">Other</option>
+    <p>If "Other": <input type="otheraccount" name="otheraccount"></p>
+    </select>
+    
+    <p>State of Origin:</p> <select name="statesinnigeria">
+        <option value="Abia">Abia</option>
+        <option value="Adamawa">Adamawa</option>
+        <option value="Akwa Ibom">Akwa Ibom</option>
+        <option value="Anambra">Anambra</option>
+        <option value="Bauchi">Bauchi</option>
+        <option value="Bayelsa">Bayelsa</option>
+        <option value="Benue">Benue</option>
+        <option value="Borno">Borno</option>
+        <option value="Cross River">Cross River</option>
+        <option value="Delta">Delta</option>
+        <option value="Ebonyi">eEbonyi</option>
+        <option value="Edo">Edo</option>
+        <option value="Ekiti">Ekiti</option>
+        <option value="Enugu">Enugu</option>
+        <option value="Gombe">Gombe</option>
+        <option value="Imo">Imo</option>
+        <option value="Jigawa">Jigawa</option>
+        <option value="Kaduna">Kaduna</option>
+        <option value="Kano">Kano</option>
+        <option value="Katsina">Katsina</option>
+        <option value="Kebbi">Kebbi</option>
+        <option value="Kogi">Kogi</option>
+        <option value="Kwara">Kwara</option>
+        <option value="Lagos">Lagos</option>
+        <option value="Nasawara">Nasawara</option>
+        <option value="Niger">Niger</option>
+        <option value="Ogun">Ogun</option>
+        <option value="Ondo">Ondo</option>
+        <option value="Osun">Osun</option>
+        <option value="Oyo">Oyo</option>
+        <option value="Plateau">Plateau</option>
+        <option value="Rivers">Rivers</option>
+        <option value="Sokoto">Sokoto</option>
+        <option value="Taraba">Taraba</option>
+        <option value="Yobe">Yobe</option>
+        <option value="Zamfara">Zamfara</option>
+        <option value="FCT">FCT</option>
+    </select> <br>
+    <p>Please enter your Facebook URL:</p> <input type="url" name="facebook">
+
+    <p> <input type="submit" value="Submit"></p>
+
+
+    
+
+
+        
+</form> 
+
+</body>
+
+</html>
